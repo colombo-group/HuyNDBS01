@@ -1,0 +1,41 @@
+
+body{
+	font-family: $font-bebasneue !important;
+	margin:0px;
+	padding:0px;
+}
+
+.header{
+
+	// height:100px;
+	// line-height:100px;
+	
+	#logo{
+		color:$footer-color;
+		font-family: Lobster;
+	}
+	.search-bar{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.btn{
+
+	}
+	.cart{
+		position: relative;
+		// line-height: 50px;
+		img{
+			margin-left: -140px;
+			margin-top: 24px;
+		}
+		span{
+			font-size: 30px;
+			color:lighten($price-color,10%);
+			font-family: $font-bebasneue;
+			position: absolute;
+			right: 37px;
+			top: 30px;
+			
+		}	
+	}
+}

@@ -1,0 +1,30 @@
+.navbar{
+	background: #00D6C2 !important;
+	z-index:99;
+	 box-shadow: 0px 0px 1px #888888;
+	 border:none !important;
+	ul{
+		margin:0 auto;
+		margin-left: 100px;
+		li {
+			border-left: 2px solid #FFFFFF;
+			height: 20px;
+			margin-top: 12px;
+
+			&:first-child{
+				border-left:none;
+				margin-left: -10px;
+			}
+			a{
+				color:#FFFFFF !important;
+				font-size: 20px;
+				text-transform: uppercase;
+				
+				margin-top:-14px;
+				&:hover {
+					color:darken(#FFFFFF,15%) !important;
+				}
+			}
+		}
+	}
+}

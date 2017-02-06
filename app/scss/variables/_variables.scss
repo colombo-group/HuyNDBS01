@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Lobster;
+  src: url(../fonts/Lobster_1_4.otf); }
+@font-face {
+  font-family: bebasneue;
+  src: url(../fonts/BebasNeue.otf); }
+  @font-face {
+  font-family: opensan;
+  src: url(../fonts/OpenSans-Light.ttf); }
+$font-opensan:opensan;
+$font-bebasneue:bebasneue;
+$primary : #337AB7;
+$default: #FFFFFF;
+$success: #5CB85C;
+$info: #5BC0DE;
+$warning: #F0AD4E;
+$danger: #D9534F;
+$end-color: #00AE9C;
+$footer-color: #00CAB6;
+$price-color:#A0A0A0;
+$font-size-title:40px;

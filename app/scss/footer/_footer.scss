@@ -1,0 +1,40 @@
+#sitemaps
+{	
+	background-color: $footer-color;
+	padding: 40px 0px;
+	#map{
+		width: 70%;
+
+		margin:0 auto;
+		p{
+			font-family: $font-opensan;
+			font-weight: bold;
+		}
+	}
+	.container
+	{
+		color:white;
+		h4
+		{
+			font-size: 2em;
+			font-weight: bolder;
+			padding-bottom: 10px;
+		}
+	}
+}
+
+#copyright
+{
+	background-color: $end-color;
+	p
+	{	
+		font-family: $font-opensan;
+		padding: 15px;
+		color: white;
+		font-weight:bold;
+		text-align: center;
+		margin: 0px;
+	}
+}
+
+
