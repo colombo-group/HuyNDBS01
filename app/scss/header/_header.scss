@@ -39,3 +39,41 @@ body{
 		}	
 	}
 }
+@media only screen and (max-width: 800px) {
+	.cart{
+		position: relative;
+		// line-height: 50px;
+		img{
+			margin-left: 0px !important;
+			margin-top: 24px;
+		}
+		span{
+			font-size: 30px;
+			color:lighten($price-color,10%);
+			font-family: $font-bebasneue;
+			position: absolute;
+			right: 37px;
+			top: 30px;
+			
+		}	
+	}
+}
+@media only screen and (max-width: 600px) {
+	.cart{
+		position: relative;
+		// line-height: 50px;
+		img{
+			margin-left: 0px !important;
+			margin-top: 24px;
+		}
+		span{
+			font-size: 30px;
+			color:lighten($price-color,10%);
+			font-family: $font-bebasneue;
+			position: absolute;
+			right: 37px;
+			top: 30px;
+			
+		}	
+	}
+}
