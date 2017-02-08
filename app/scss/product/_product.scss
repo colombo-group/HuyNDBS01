@@ -59,8 +59,9 @@
 		}
 		.btn
 			{	
-				background:lighten($success,15%);
+				background:#00CE96;
 				color: white;
+				border:none;
 				font-weight: bolder;
 				&:hover
 				{
