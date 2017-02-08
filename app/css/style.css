@@ -22,6 +22,20 @@ body {
 .header .search-bar {
   margin-top: 30px;
   margin-bottom: 30px; }
+  .header .search-bar .input-group {
+    position: relative; }
+    .header .search-bar .input-group .form-control {
+      width: 500px; }
+    .header .search-bar .input-group .input-group-btn {
+      position: absolute;
+      top: -4px;
+      right: 40px;
+      z-index: 99;
+      opacity: 0.4; }
+
+.header .btn {
+  background: none;
+  font-size: 25px; }
 
 .header .cart {
   position: relative; }
@@ -333,7 +347,7 @@ body {
       color: #adadad;
       font-size: 30px; }
   .featured .main-body .item-content {
-    border-bottom: 4px solid #5CB85C;
+    border-bottom: 4px solid #00C38E;
     width: 100%;
     height: 100%; }
   .featured .main-body .btn {

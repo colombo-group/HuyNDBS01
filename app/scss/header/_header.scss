@@ -6,7 +6,6 @@ body{
 }
 
 .header{
-
 	// height:100px;
 	// line-height:100px;
 	
@@ -17,9 +16,23 @@ body{
 	.search-bar{
 		margin-top: 30px;
 		margin-bottom: 30px;
+		.input-group{
+			position:relative;
+			.form-control{
+				width: 500px;
+			}
+			.input-group-btn{
+				position:absolute;
+				top: -4px;
+				right: 40px;
+				z-index: 99;
+				opacity: 0.4;
+			}
+		}
 	}
 	.btn{
-
+		background: none;
+		font-size: 25px;
 	}
 	.cart{
 		position: relative;
