@@ -7,8 +7,8 @@
   src: url(../fonts/BebasNeue.otf); }
 
 @font-face {
-  font-family: opensan;
-  src: url(../fonts/OpenSans-Light.ttf); }
+  font-family: ptsan;
+  src: url(../fonts/PTC55F.ttf); }
 
 body {
   font-family: bebasneue !important;
